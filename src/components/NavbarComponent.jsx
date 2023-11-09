@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { LinkContainer } from 'react-router-bootstrap';
 
-import '../styles/bootstrap.css';
+import '../assets/styles/bootstrap.css';
 import { getContext } from '../assets/js/utils';
 
 const NavbarComponent = () => {

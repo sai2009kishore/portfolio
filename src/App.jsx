@@ -7,7 +7,7 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 import NavbarComponent from './components/NavbarComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './styles/App.css';
+import './assets/styles/App.css';
 import { getContext } from './assets/js/utils';
 
 function App() {

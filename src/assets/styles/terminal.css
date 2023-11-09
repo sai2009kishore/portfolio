@@ -1,0 +1,82 @@
+.terminal-window {
+    background: #252a33;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #333;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+@media (max-width: 575px) {
+    .terminal-window {
+        margin: 50px 16px 50px 16px;
+    }
+}
+
+.terminal-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.terminal-buttons {
+    display: flex;
+}
+
+.terminal-buttons-right {
+    height: 15px;
+    width: 60px;
+}
+
+.terminal-button {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.close-button {
+    background: #ff605c;
+}
+
+.minimize-button {
+    background: #ffbd44;
+}
+
+.maximize-button {
+    background: #00ca56;
+}
+
+.terminal-title {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.terminal-body {
+    white-space: pre-wrap;
+}
+
+.terminal-prompt {
+    color: #33ff00;
+}
+
+.terminal-response {
+    color: #ffbd44;
+}
+
+.terminal-cursor {
+    display: inline-block;
+    width: 10px;
+    background-color: #fff;
+    margin-left: 5px;
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        background-color: transparent;
+    }
+}
