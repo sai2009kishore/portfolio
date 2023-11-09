@@ -6,22 +6,23 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import NavbarComponent from './components/NavbarComponent';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/App.css';
+import { isProduction } from './assets/js/utils';
 
 function App() {
+  const context = isProduction() ? '/portfolio' : '/'
 
   return (
     <div className="App">
       <NavbarComponent />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/interests" element={<Interests />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path={`${context}/`} element={<Home />} />
+        <Route path={`${context}/about`} element={<About />} />
+        <Route path={`${context}/resume`} element={<Resume />} />
+        <Route path={`${context}/projects`} element={<Projects />} />
+        <Route path={`${context}/interests`} element={<Interests />} />
+        <Route path={`${context}/contact`} element={<Contact />} />
       </Routes>
     </div>
   );
