@@ -7,14 +7,14 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 import NavbarComponent from './components/NavbarComponent';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/styles/App.css';
+import './assets/styles/app.css';
 import { getContext } from './assets/js/utils';
 
 function App() {
   const context = getContext();
 
   return (
-    <div className="App">
+    <div className="app">
       <NavbarComponent />
       <Routes>
         <Route path={`${context}`} element={<Home />} />
