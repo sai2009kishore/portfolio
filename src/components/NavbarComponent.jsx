@@ -2,9 +2,8 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { LinkContainer } from 'react-router-bootstrap';
-
-import '../assets/styles/bootstrap.css';
 import { getContext } from '../assets/js/utils';
+import '../assets/styles/bootstrap.css';
 
 const NavbarComponent = () => {
   const context = getContext();
@@ -20,6 +19,7 @@ const NavbarComponent = () => {
           <LinkContainer to={`${context}`}>
             <Nav.Link>Home</Nav.Link>
           </LinkContainer>
+          {/* 
           <LinkContainer to={`${context}about`}>
             <Nav.Link>About</Nav.Link>
           </LinkContainer>
@@ -34,7 +34,8 @@ const NavbarComponent = () => {
           </LinkContainer>
           <LinkContainer to={`${context}contact`}>
             <Nav.Link>Contact</Nav.Link>
-          </LinkContainer>
+          </LinkContainer> 
+          */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -6,16 +6,19 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Projects from './components/Projects';
 import NavbarComponent from './components/NavbarComponent';
+import { getContext } from './assets/js/utils';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/styles/app.css';
-import { getContext } from './assets/js/utils';
+import './assets/styles/scrollbar.css';
 
 function App() {
   const context = getContext();
 
   return (
-    <div className="app">
+    <div className="app scrollbar">
       <NavbarComponent />
+
       <Routes>
         <Route path={`${context}`} element={<Home />} />
         <Route path={`${context}about`} element={<About />} />
@@ -24,6 +27,8 @@ function App() {
         <Route path={`${context}interests`} element={<Interests />} />
         <Route path={`${context}contact`} element={<Contact />} />
       </Routes>
+
+      <Footer />
     </div>
   );
 }

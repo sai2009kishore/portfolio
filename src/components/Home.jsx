@@ -1,6 +1,6 @@
 import { Fragment, useEffect } from 'react';
-import '../assets/styles/terminal.css';
 import { Col, Image, Row } from 'react-bootstrap';
+import '../assets/styles/terminal.css';
 import '../assets/styles/home.css';
 
 const PROMPT_NAME = 'coder0112358@portfolio:~$ ';
@@ -25,7 +25,7 @@ const Home = () => {
         <div className='home'>
             <Row style={{ padding: 0, margin: 0 }}>
                 <Col sm={5} className='text-center'>
-                    <Image id="home-img" src={require("../assets/img/home-img-1.jpg")} alt="Descriptive alt text" fluid />
+                    <Image id="home-img" src={require("../assets/img/home-img-1.jpg")} alt="Home Logo" fluid />
                 </Col>
                 <Col sm={7}>
                     <div className="terminal-window">
