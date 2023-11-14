@@ -16,7 +16,7 @@ function App() {
   const context = getContext();
 
   return (
-    <div className="app scrollbar">
+    <div className="app">
       <NavbarComponent />
 
       <Routes>
