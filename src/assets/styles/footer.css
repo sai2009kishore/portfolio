@@ -1,8 +1,5 @@
 .footer {
     width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
     height: 120px;
 }
 
@@ -13,4 +10,12 @@
 
 .socials a {
     margin: 0 30px;
+}
+
+@media (min-height: 780px) {
+    .footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
 }

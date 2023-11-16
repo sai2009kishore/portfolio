@@ -16,7 +16,7 @@ function App() {
   const context = getContext();
 
   return (
-    <div className="app">
+    <div id="app">
       <NavbarComponent />
 
       <Routes>
