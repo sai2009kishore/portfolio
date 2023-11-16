@@ -22,7 +22,7 @@ const Home = () => {
     }
 
     return (
-        <div className='home'>
+        <div className='home main-content'>
             <Row style={{ padding: 0, margin: 0 }}>
                 <Col sm={5} className='text-center'>
                     <Image id="home-img" src={require("../assets/img/home-img-1.jpg")} alt="Home Logo" fluid />

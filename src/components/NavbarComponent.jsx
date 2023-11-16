@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import { LinkContainer } from 'react-router-bootstrap';
 import { getContext } from '../assets/js/utils';
 import '../assets/styles/bootstrap.css';
+import EncryptEffect from './EncryptEffect';
 
 const NavbarComponent = () => {
   const context = getContext();
@@ -11,7 +12,7 @@ const NavbarComponent = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <LinkContainer to={`${context}`}>
-        <Navbar.Brand>Sai Kishore Salaka</Navbar.Brand>
+        <Navbar.Brand><EncryptEffect text="Sai Kishore Salaka" speed={75} /></Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -19,12 +20,12 @@ const NavbarComponent = () => {
           <LinkContainer to={`${context}`}>
             <Nav.Link>Home</Nav.Link>
           </LinkContainer>
+          <LinkContainer to={`${context}resume`}>
+            <Nav.Link>Resume</Nav.Link>
+          </LinkContainer>
           {/* 
           <LinkContainer to={`${context}about`}>
             <Nav.Link>About</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to={`${context}resume`}>
-            <Nav.Link>Resume</Nav.Link>
           </LinkContainer>
           <LinkContainer to={`${context}projects`}>
             <Nav.Link>Projects</Nav.Link>
