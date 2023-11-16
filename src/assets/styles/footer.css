@@ -10,6 +10,16 @@
 
 .socials a {
     margin: 0 30px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    padding: 2px;
+}
+
+.socials a:hover {
+    border-color: white;
 }
 
 @media (min-height: 780px) {

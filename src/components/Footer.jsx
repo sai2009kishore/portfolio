@@ -24,7 +24,7 @@ const Footer = () => {
                 </Row>
                 <Row>
                     <Col className="text-center">
-                        Handcrafted by <b>Sai Kishore Salaka</b>
+                        <span style={{ backgroundColor: 'black', padding: '0 4px 4px 4px' }}>Handcrafted by <b>Sai Kishore Salaka</b></span>
                     </Col>
                 </Row>
             </Container>
