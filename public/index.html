@@ -10,6 +10,18 @@
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>Sai Kishore Salaka</title>
+  <script type="text/javascript">
+    (function () {
+      var pathname = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+
+      if (!hash) {
+        var newUrl = "/#/home";
+        window.location.replace(newUrl);
+      }
+    })();
+  </script>
 </head>
 
 <body>

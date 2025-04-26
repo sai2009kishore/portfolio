@@ -20,7 +20,7 @@ function App() {
       <NavbarComponent />
 
       <Routes>
-        <Route path={`${context}`} element={<Home />} />
+        <Route path={`${context}home`} element={<Home />} />
         <Route path={`${context}about`} element={<About />} />
         <Route path={`${context}resume`} element={<Resume />} />
         <Route path={`${context}projects`} element={<Projects />} />
