@@ -3,7 +3,7 @@ import '../assets/styles/resume.css'
 
 const Resume = () => {
     useEffect(() => {
-        document.body.style.background = "linear-gradient(to right, #141e30, #243b55)";
+        document.body.style.background = "linear-gradient(to right, #654ea3, #eaafc8)";
     }, []);
 
     return (

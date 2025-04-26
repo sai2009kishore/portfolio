@@ -1,0 +1,15 @@
+.about-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.quick-facts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-facts li {
+    margin-bottom: 0.5rem;
+}
