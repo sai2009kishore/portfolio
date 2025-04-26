@@ -23,10 +23,10 @@ const NavbarComponent = () => {
           <LinkContainer to={`${context}resume`}>
             <Nav.Link>Resume</Nav.Link>
           </LinkContainer>
-          {/* 
           <LinkContainer to={`${context}about`}>
             <Nav.Link>About</Nav.Link>
           </LinkContainer>
+          {/* 
           <LinkContainer to={`${context}projects`}>
             <Nav.Link>Projects</Nav.Link>
           </LinkContainer>
