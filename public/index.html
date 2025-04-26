@@ -10,18 +10,22 @@
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <title>Sai Kishore Salaka</title>
-  <!-- <script type="text/javascript">
+  <script type="text/javascript">
     (function () {
       var pathname = window.location.pathname;
       var search = window.location.search;
       var hash = window.location.hash;
 
+      var isProduction = window.location.hostname.includes("github.io");
+
       if (!hash) {
-        var newUrl = "/portfolio/#/home";
+        var basePath = isProduction ? "/portfolio" : "";
+        var newUrl = basePath + "/#/home" + search;
         window.location.replace(newUrl);
       }
-    })();
-  </script> -->
+    }
+    )();
+  </script>
 </head>
 
 <body>
