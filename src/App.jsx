@@ -9,7 +9,7 @@ import NavbarComponent from './components/NavbarComponent';
 import { getContext } from './assets/js/utils';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/styles/app.css';
+import './assets/styles/App.css';
 import './assets/styles/scrollbar.css';
 
 function App() {

@@ -12,7 +12,7 @@ const NavbarComponent = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <LinkContainer to={`${context}`}>
-        <Navbar.Brand><EncryptEffect text="Sai Kishore Salaka" speed={75} /></Navbar.Brand>
+        <Navbar.Brand><EncryptEffect text="Sai Kishore Salaka" speed={50} /></Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
