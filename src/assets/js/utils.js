@@ -3,5 +3,5 @@ export const isProduction = () => {
 }
 
 export const getContext = () => {
-    return isProduction() ? '/portfolio/' : '/';
+    return isProduction() ? '/portfolio' : '/';
 }
