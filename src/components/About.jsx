@@ -4,7 +4,7 @@ import '../assets/styles/about.css';
 
 const About = () => {
     useEffect(() => {
-        document.body.style.background = "linear-gradient(to top right, #159957, #155799)"; // Updated gradient matching your image
+        document.body.style.background = "linear-gradient(to top right, #159957, #155799)";
     }, []);
 
     return (
@@ -15,33 +15,42 @@ const About = () => {
                         <Image
                             src={require('../assets/img/profile-image.JPG')}
                             roundedCircle
-                            alt="Profile Image"
+                            alt="Profile"
                             className="about-img"
                         />
                     </Col>
                     <Col md={7}>
                         <h2 className="about-title">Hello, I'm Sai 👋</h2>
+
                         <p className="about-text">
-                            I am a passionate software engineer based in Dallas - Texas, with a strong drive for building impactful digital experiences.
-                            I completed my Master’s in Computer Science from <a className="hlink" href="https://cs.gmu.edu/" style={{ textWrap: 'nowrap' }}>George Mason University</a> and hold a Bachelor’s degree from <a className="hlink" href="http://www.cse.griet.ac.in/">GRIET</a>.
+                            🎓 I've always been a curious and driven learner. From a young age, I excelled academically, always eager to take on new challenges.
                         </p>
+
                         <p className="about-text">
-                            My interests span across Fullstack Development, Cloud Computing, and Machine Learning.
-                            I am constantly exploring innovative technologies and love crafting scalable, user-centric applications that solve real-world problems.
+                            💻 My passion for technology emerged during my Bachelor's degree at <a className="hlink" href="http://www.cse.griet.ac.in/" target="_blank" rel="noreferrer">GRIET</a>, where I chose Computer Science because it felt like solving endless puzzles — and problem-solving has always been second nature to me.
+                            Before I owned a personal laptop, I would often stay back at college, spending extra hours in the labs just to practice programming and explore new technologies. Once I finally had my own laptop, there was no stopping me — I immersed myself fully, building exciting projects and deepening my skills.
                         </p>
+
                         <p className="about-text">
-                            Outside of coding, you’ll find me running, strength training, sketching, learning Japanese, or just gaming. I believe in the power of continuous learning, strong collaboration, and bringing creativity into everything I do.
+                            🛠️ I began my professional journey at <a className="hlink" href="https://innovasolutions.com/" target="_blank" rel="noreferrer">GGK Technologies</a> in Hyderabad, India, where I interned and then worked as a Java Developer. Exposure to modern technologies and real-world applications piqued my curiosity even further. I soon expanded into frontend development and CI/CD, embracing fullstack engineering.
                         </p>
-                        <div className="quick-facts">
-                            <h4>Quick Facts:</h4>
-                            <ul>
-                                <li><b>Location:</b> Dallas, Texas</li>
-                                <li><b>Education:</b> MS in Computer Science, George Mason University</li>
-                                <li><b>Passions:</b> Fullstack Development, Cloud Technologies, Machine Learning</li>
-                                <li><b>Soft Skills:</b> Team Collaboration, Creative Problem Solving, Adaptability</li>
-                                <li><b>Hobbies:</b> Running, Strength Training, Sketching, Gaming</li>
-                            </ul>
-                        </div>
+
+                        <p className="about-text">
+                            📚 The student in me craved more. I decided to pursue a Master’s degree at <a className="hlink" href="https://cs.gmu.edu/" target="_blank" rel="noreferrer" style={{ textWrap: 'nowrap' }}>George Mason University</a>, a decision that profoundly shaped my growth.
+                            Adapting to a new country while managing part-time work and rigorous Machine Learning coursework tested my perseverance like never before. Machine Learning turned out to be one of the most fascinating fields I had ever encountered. I loved solving real-world problems through intelligent models, deeply understanding the algorithms, and even stepping outside my comfort zone by taking a robotics course.
+                        </p>
+
+                        <p className="about-text">
+                            🚀 Today, I work as a Senior Software Engineer at <a className="hlink" href="https://www.greenarrowlabs.com/" target="_blank" rel="noreferrer" style={{ textWrap: 'nowrap' }}>Green Arrow Labs, Inc.</a>, where I wear many hats — fullstack development, Azure cloud management, DevOps, CI/CD pipeline automation, architectural design, and integrating cloud-based Machine Learning tools into our applications.
+                        </p>
+
+                        <p className="about-text">
+                            🔍 Professionally, I’m passionate about continuous learning, system optimization, user experience, and finding smarter ways to solve real-world problems. I'm excited about what cloud computing, AI, and modern architectures can achieve, and I'm always seeking ways to innovate and improve.
+                        </p>
+
+                        <p className="about-text">
+                            🎨 Outside of work, I love running, strength training, swimming, sketching, learning Japanese, and gaming — activities that keep me creative, energized, and curious.
+                        </p>
                     </Col>
                 </Row>
             </Container>

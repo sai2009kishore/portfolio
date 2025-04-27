@@ -32,13 +32,3 @@
   font-size: 1.1rem;
   color: #333;
 }
-
-.quick-facts ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.quick-facts li {
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
-}

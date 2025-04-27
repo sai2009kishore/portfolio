@@ -10,10 +10,12 @@ import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/styles/app.css';
 import './assets/styles/scrollbar.css';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div id="app" className="app-container">
+      <ScrollToTop />
       <NavbarComponent />
 
       <div className="content-wrap">
