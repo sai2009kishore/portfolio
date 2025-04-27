@@ -41,8 +41,11 @@ const Home = () => {
                         <div className="terminal-body">
                             <p>Welcome to my portfolio!</p>
                             {generatePrompt('sai.currentLocation', '"Dallas, Texas, USA"')}
-                            {generatePrompt('sai.education', '["Master\'s in Computer Science, George Mason University", "Bachelor\'s in Computer Science, GRIET"]')}
-                            {generatePrompt('sai.webDevelopmentSkills', '["Java", "Hibernate", "Play", "Spring Boot", "REST", "React.js", "Node.js", "JS", "HTML", "CSS", "MySQL", "Neo4j", "MongoDB", "Docker", "Microservices", "CI/CD", "Kubernetes", "Azure"]')}
+                            {generatePrompt('sai.education', '["Master\'s in Computer Science - George Mason University", "Bachelor\'s in Computer Science - GRIET"]')}
+                            {generatePrompt('sai.backendSkills', '["Java", "Hibernate", "Play", "Spring Boot", "Node.js", "REST", "Microservices"]')}
+                            {generatePrompt('sai.frontendSkills', '["React.js", "Next.js", "TypeScript"]')}
+                            {generatePrompt('sai.dataSkills', '["MySQL", "PostgreSQL", "Neo4j", "Oracle"]')}
+                            {generatePrompt('sai.devopsSkills', '["Azure", "AWS", "Kubernetes", "Helm", "CI/CD", "Docker]')}
                             {generatePrompt('sai.machineLearningSkills', '["Python", "PySpark", "CLISP", "TensorFlow", "PyTorch"]')}
                             {generatePrompt(<span className="terminal-cursor"> </span>)}
                         </div>

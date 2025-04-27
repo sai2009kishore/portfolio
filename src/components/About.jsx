@@ -8,7 +8,7 @@ const About = () => {
     }, []);
 
     return (
-        <div className="about main-content">
+        <div className="about main-content" style={{ marginLeft: '1rem', marginRight: '1rem' }}>
             <Container className="about-container">
                 <Row className="align-items-center" style={{ paddingTop: '2rem' }}>
                     <Col md={5} className="text-center">
@@ -20,22 +20,26 @@ const About = () => {
                         />
                     </Col>
                     <Col md={7}>
-                        <h2 className="about-title">Hello, I'm Sai Kishore Salaka 👋</h2>
+                        <h2 className="about-title">Hello, I'm Sai 👋</h2>
                         <p className="about-text">
-                            I'm a passionate developer based in Dallas, Texas. I completed my Master's in Computer Science from George Mason University and Bachelor's from GRIET.
-                            I love building innovative software solutions, exploring new technologies, and solving real-world problems.
+                            I am a passionate software engineer based in Dallas - Texas, with a strong drive for building impactful digital experiences.
+                            I completed my Master’s in Computer Science from <a className="hlink" href="https://cs.gmu.edu/" style={{ textWrap: 'nowrap' }}>George Mason University</a> and hold a Bachelor’s degree from <a className="hlink" href="http://www.cse.griet.ac.in/">GRIET</a>.
                         </p>
                         <p className="about-text">
-                            When I'm not coding, I enjoy running, strength training, sketching, or gaming.
+                            My interests span across Fullstack Development, Cloud Computing, and Machine Learning.
+                            I am constantly exploring innovative technologies and love crafting scalable, user-centric applications that solve real-world problems.
                         </p>
-
+                        <p className="about-text">
+                            Outside of coding, you’ll find me running, strength training, sketching, learning Japanese, or just gaming. I believe in the power of continuous learning, strong collaboration, and bringing creativity into everything I do.
+                        </p>
                         <div className="quick-facts">
                             <h4>Quick Facts:</h4>
                             <ul>
                                 <li><b>Location:</b> Dallas, Texas</li>
-                                <li><b>Education:</b> MS in Computer Science, GMU</li>
-                                <li><b>Interests:</b> Fullstack Development, Machine Learning, Cloud Computing</li>
-                                <li><b>Soft Skills:</b> Teamwork, Communication, Problem-Solving</li>
+                                <li><b>Education:</b> MS in Computer Science, George Mason University</li>
+                                <li><b>Passions:</b> Fullstack Development, Cloud Technologies, Machine Learning</li>
+                                <li><b>Soft Skills:</b> Team Collaboration, Creative Problem Solving, Adaptability</li>
+                                <li><b>Hobbies:</b> Running, Strength Training, Sketching, Gaming</li>
                             </ul>
                         </div>
                     </Col>

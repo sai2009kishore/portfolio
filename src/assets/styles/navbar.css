@@ -1,4 +1,3 @@
-/* Adjust the Navbar brand size */
 .custom-brand {
     font-size: 1.5rem;
 }
@@ -16,9 +15,5 @@
     .custom-navlinks .nav-link {
         padding: 10px 0;
         font-size: 1.1rem;
-    }
-
-    .custom-toggler {
-        border: none;
     }
 }

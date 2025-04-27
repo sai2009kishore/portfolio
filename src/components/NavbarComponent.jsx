@@ -3,7 +3,6 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import EncryptEffect from './EncryptEffect';
 import { LinkContainer } from 'react-router-bootstrap';
-import '../assets/styles/bootstrap.css';
 import '../assets/styles/navbar.css';
 
 const NavbarComponent = () => {
