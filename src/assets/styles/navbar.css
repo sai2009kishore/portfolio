@@ -1,0 +1,24 @@
+/* Adjust the Navbar brand size */
+.custom-brand {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .custom-brand {
+        font-size: 1.2rem;
+    }
+
+    .custom-navlinks {
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .custom-navlinks .nav-link {
+        padding: 10px 0;
+        font-size: 1.1rem;
+    }
+
+    .custom-toggler {
+        border: none;
+    }
+}
