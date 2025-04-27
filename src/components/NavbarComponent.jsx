@@ -17,7 +17,7 @@ const NavbarComponent = () => {
       <div className="container-fluid">
         <LinkContainer to='/home' onClick={handleNavLinkClick}>
           <Navbar.Brand className="custom-brand">
-            <EncryptEffect text="Sai Kishore Salaka" speed={75} />
+            <EncryptEffect text="Sai Kishore Salaka" speed={35} />
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,20 +29,12 @@ const NavbarComponent = () => {
             <LinkContainer to='/resume' onClick={handleNavLinkClick}>
               <Nav.Link>Resume</Nav.Link>
             </LinkContainer>
+            <LinkContainer to='/gallery' onClick={handleNavLinkClick}>
+              <Nav.Link>Gallery</Nav.Link>
+            </LinkContainer>
             <LinkContainer to='/about' onClick={handleNavLinkClick}>
               <Nav.Link>About</Nav.Link>
             </LinkContainer>
-            {/* 
-            <LinkContainer to='/projects' onClick={handleNavLinkClick}>
-              <Nav.Link>Projects</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to='/interests' onClick={handleNavLinkClick}>
-              <Nav.Link>Interests</Nav.Link>
-            </LinkContainer>
-            <LinkContainer to='/contact' onClick={handleNavLinkClick}>
-              <Nav.Link>Contact</Nav.Link>
-            </LinkContainer>
-            */}
           </Nav>
         </Navbar.Collapse>
       </div>
