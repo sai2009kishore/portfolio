@@ -4,12 +4,12 @@ import '../assets/styles/about.css';
 
 const About = () => {
     useEffect(() => {
-        document.body.style.background = "linear-gradient(to right, #654ea3, #eaafc8)";
+        document.body.style.background = "linear-gradient(to top right, #159957, #155799)"; // Updated gradient matching your image
     }, []);
 
     return (
         <div className="about main-content">
-            <Container>
+            <Container className="about-container">
                 <Row className="align-items-center" style={{ paddingTop: '2rem' }}>
                     <Col md={5} className="text-center">
                         <Image
@@ -20,12 +20,12 @@ const About = () => {
                         />
                     </Col>
                     <Col md={7}>
-                        <h2>Hello, I'm Sai Kishore Salaka 👋</h2>
-                        <p>
+                        <h2 className="about-title">Hello, I'm Sai Kishore Salaka 👋</h2>
+                        <p className="about-text">
                             I'm a passionate developer based in Dallas, Texas. I completed my Master's in Computer Science from George Mason University and Bachelor's from GRIET.
                             I love building innovative software solutions, exploring new technologies, and solving real-world problems.
                         </p>
-                        <p>
+                        <p className="about-text">
                             When I'm not coding, I enjoy running, strength training, sketching, or gaming.
                         </p>
 

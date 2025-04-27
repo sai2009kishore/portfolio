@@ -14,7 +14,7 @@ const NavbarComponent = () => {
   };
 
   return (
-    <Navbar bg="dark" variant="dark" expand="lg" expanded={expanded} onToggle={setExpanded} className="custom-navbar">
+    <Navbar bg="dark" variant="dark" expand="lg" expanded={expanded} onToggle={setExpanded} fixed="top" className="custom-navbar">
       <div className="container-fluid">
         <LinkContainer to='/home' onClick={handleNavLinkClick}>
           <Navbar.Brand className="custom-brand">
