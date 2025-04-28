@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import LinkedInLogo from '../assets/img/LinkedInLogo';
-import InstagramLogo from '../assets/img/InstagramLogo';
-import GitHubLogo from '../assets/img/GitHubLogo';
+import LinkedInLogo from '../assets/img/logos/LinkedInLogo';
+import InstagramLogo from '../assets/img/logos/InstagramLogo';
+import GitHubLogo from '../assets/img/logos/GitHubLogo';
 import '../assets/styles/footer.css';
 
 const Footer = () => {
