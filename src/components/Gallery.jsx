@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { Modal } from 'react-bootstrap';
 import '../assets/styles/gallery.css';
 
@@ -50,22 +50,23 @@ const Gallery = () => {
         setShow(true);
     };
 
-    const handleClose = () => setShow(false);
+    const handleClose = useCallback(() => {
+        setShow(false);
+    }, []);
 
-    const handleNext = () => {
+    const handleNext = useCallback(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % filteredImages.length);
-    };
+    }, [filteredImages.length]);
 
-    const handlePrev = () => {
+    const handlePrev = useCallback(() => {
         setCurrentIndex((prevIndex) => (prevIndex - 1 + filteredImages.length) % filteredImages.length);
-    };
+    }, [filteredImages.length]);
 
     const currentImage = currentIndex !== null ? filteredImages[currentIndex] : null;
 
-    // ⭐ Keyboard navigation support
     useEffect(() => {
         const handleKeyDown = (e) => {
-            if (!show) return; // Only active when modal is open
+            if (!show) return;
 
             if (e.key === 'ArrowRight') {
                 handleNext();
@@ -79,7 +80,7 @@ const Gallery = () => {
         window.addEventListener('keydown', handleKeyDown);
 
         return () => window.removeEventListener('keydown', handleKeyDown);
-    }, [show, filteredImages.length]);
+    }, [show, handleNext, handlePrev, handleClose]);
 
     return (
         <div className="gallery-page main-content">
@@ -116,20 +117,19 @@ const Gallery = () => {
                 <Modal.Body className="modal-body-custom">
                     {currentImage && (
                         <>
-                            <img src={currentImage.src} alt="Enlarged" className="modal-img" />
+                            <div className="modal-image-container">
+                                <button className="nav-button fixed-left" onClick={handlePrev}>❮</button>
+                                <img src={currentImage.src} alt="Enlarged" className="modal-img" />
+                                <button className="nav-button fixed-right" onClick={handleNext}>❯</button>
+                            </div>
+
                             <div className="modal-caption">
                                 <h5>{currentImage.description}</h5>
                                 <div className="modal-bottom">
-                                    <button className="nav-button bottom-left" onClick={handlePrev}>❮</button>
-
-                                    <div className="modal-info">
-                                        {currentImage.location && (
-                                            <p className="modal-location">📍 {currentImage.location}</p>
-                                        )}
-                                        <p className="modal-date">{currentImage.uploadDate}</p>
-                                    </div>
-
-                                    <button className="nav-button bottom-right" onClick={handleNext}>❯</button>
+                                    {currentImage.location && (
+                                        <p className="modal-location">📍 {currentImage.location}</p>
+                                    )}
+                                    <p className="modal-date">{currentImage.uploadDate}</p>
                                 </div>
                             </div>
                         </>
