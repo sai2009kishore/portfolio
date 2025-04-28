@@ -7,157 +7,195 @@ const images = [
         src: require('../assets/img/gallery/img-1.jpg'),
         uploadDate: "December 14, 2024",
         description: "My only opportunity to capture the fall colors in '24",
-        location: "Dallas, TX",
+        location: "Farmers Branch, TX",
         type: "Nature"
     },
     {
         src: require('../assets/img/gallery/img-2.jpg'),
         uploadDate: "January 13, 2025",
         description: "Golden hour in the city",
-        location: "Dallas, TX",
+        location: "Farmers Branch, TX",
         type: "Nature"
     },
     {
         src: require('../assets/img/gallery/img-3.jpg'),
         uploadDate: "January 18, 2025",
         description: "On a break between a walk",
-        location: "Dallas, TX",
-        type: "Running"
+        location: "Irving, TX",
+        type: "Nature"
     },
     {
         src: require('../assets/img/gallery/img-4.jpg'),
         uploadDate: "March 6, 2025",
-        description: "Sun climbing the mountains",
+        description: "Sun escaping the mountains",
         location: "Vontimitta, IN",
         type: "Nature"
     },
     {
         src: require('../assets/img/gallery/img-5.jpg'),
-        uploadDate: "April 28, 2025",
-        description: "A beautiful sunset",
+        uploadDate: "June 27, 2024",
+        description: "Vegan Spinach Pasta",
         location: "Dallas, TX",
-        type: "Nature"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-6.jpg'),
-        uploadDate: "April 29, 2025",
-        description: "Running in the park",
+        uploadDate: "August 5, 2024",
+        description: "Banana Bread",
         location: "Dallas, TX",
-        type: "Running"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-7.jpg'),
-        uploadDate: "April 30, 2025",
-        description: "A beautiful sunset",
+        description: "Hakka Noodles w/ Chilli Paneer",
         location: "Dallas, TX",
-        type: "Nature"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-8.jpg'),
-        uploadDate: "May 1, 2025",
-        description: "Running in the park",
+        uploadDate: "September 6, 2024",
+        description: "Bagels",
         location: "Dallas, TX",
-        type: "Running"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-9.jpg'),
-        uploadDate: "May 2, 2025",
-        description: "A beautiful sunset",
+        uploadDate: "September 6, 2024",
+        description: "Vinayaka Chaturthi '24",
         location: "Dallas, TX",
-        type: "Nature"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-10.jpg'),
-        uploadDate: "May 3, 2025",
-        description: "Running in the park",
+        uploadDate: "September 22, 2024",
+        description: "Neapolitan Pizza",
         location: "Dallas, TX",
-        type: "Running"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-11.jpg'),
-        uploadDate: "May 4, 2025",
-        description: "A beautiful sunset",
+        uploadDate: "Devember 14, 2024",
+        description: "Brioche Buns",
         location: "Dallas, TX",
-        type: "Nature"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-12.jpg'),
-        uploadDate: "May 5, 2025",
-        description: "Running in the park",
+        uploadDate: "December 15, 2024",
+        description: "Baby Koala w/ Mama",
         location: "Dallas, TX",
-        type: "Running"
+        type: "Painting/Sketching"
     },
     {
         src: require('../assets/img/gallery/img-13.jpg'),
-        uploadDate: "May 6, 2025",
-        description: "A beautiful sunset",
+        uploadDate: "December 24, 2024",
+        description: "Hot Chocolate",
         location: "Dallas, TX",
-        type: "Nature"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-14.jpg'),
-        uploadDate: "May 7, 2025",
-        description: "Running in the park",
+        uploadDate: "January 2, 2025",
+        description: "Lillies",
         location: "Dallas, TX",
-        type: "Running"
+        type: "Painting/Sketching"
     },
     {
         src: require('../assets/img/gallery/img-15.jpg'),
-        uploadDate: "May 8, 2025",
-        description: "A beautiful sunset",
+        uploadDate: "January 12, 2025",
+        description: "Drunken Noodles",
         location: "Dallas, TX",
-        type: "Nature"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-16.jpg'),
-        uploadDate: "May 9, 2025",
-        description: "Running in the park",
+        uploadDate: "January 18, 2025",
+        description: "Waffles",
         location: "Dallas, TX",
-        type: "Running"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-17.jpg'),
-        uploadDate: "May 10, 2025",
-        description: "A beautiful sunset",
+        uploadDate: "January 19, 2025",
+        description: "Shrimp Tempura Rolls",
         location: "Dallas, TX",
-        type: "Nature"
+        type: "Cooking/Baking"
     },
     {
         src: require('../assets/img/gallery/img-18.jpg'),
-        uploadDate: "May 11, 2025",
-        description: "Running in the park",
+        uploadDate: "January 22, 2025",
+        description: "My Living Room",
         location: "Dallas, TX",
-        type: "Running"
+        type: "Painting/Sketching"
     },
     {
         src: require('../assets/img/gallery/img-19.jpg'),
-        uploadDate: "May 12, 2025",
-        description: "A beautiful sunset",
+        uploadDate: "January 26, 2025",
+        description: "A City Street",
         location: "Dallas, TX",
-        type: "Nature"
+        type: "Painting/Sketching"
     },
     {
         src: require('../assets/img/gallery/img-20.jpg'),
-        uploadDate: "May 13, 2025",
-        description: "Running in the park",
+        uploadDate: "January 30, 2025",
+        description: "A Peaceful Lake",
         location: "Dallas, TX",
-        type: "Running"
+        type: "Painting/Sketching"
     },
     {
         src: require('../assets/img/gallery/img-21.jpg'),
-        uploadDate: "May 14, 2025",
-        description: "A beautiful sunset",
+        uploadDate: "February 12, 2025",
+        description: "Mt. Fuji",
         location: "Dallas, TX",
-        type: "Nature"
+        type: "Painting/Sketching"
     },
     {
         src: require('../assets/img/gallery/img-22.jpg'),
-        uploadDate: "May 15, 2025",
-        description: "Running in the park",
+        uploadDate: "February 25, 2025",
+        description: "The Stare",
         location: "Dallas, TX",
-        type: "Running"
+        type: "Painting/Sketching"
+    },
+    {
+        src: require('../assets/img/gallery/img-23.jpg'),
+        uploadDate: "March 13, 2025",
+        description: "Simba",
+        location: "Hyderabad, IN",
+        type: "Painting/Sketching"
+    },
+    {
+        src: require('../assets/img/gallery/img-24.jpg'),
+        uploadDate: "March 14, 2025",
+        description: "Cabin in the Woods",
+        location: "Hyderabad, IN",
+        type: "Painting/Sketching"
+    },
+    {
+        src: require('../assets/img/gallery/img-25.jpg'),
+        uploadDate: "April 17, 2025",
+        description: "Sakura",
+        location: "Dallas, TX",
+        type: "Painting/Sketching"
     },
 ];
+
+const sortByDate = (images) => {
+    return images.slice()
+        .sort((a, b) => {
+            const dateA = a.uploadDate ? new Date(a.uploadDate) : null;
+            const dateB = b.uploadDate ? new Date(b.uploadDate) : null;
+
+            if (dateA && dateB) {
+                return dateB - dateA;
+            } else if (dateA && !dateB) {
+                return -1;
+            } else if (!dateA && dateB) {
+                return 1;
+            } else {
+                return 0;
+            }
+        })
+}
 
 const Gallery = () => {
     const [show, setShow] = useState(false);
@@ -169,7 +207,8 @@ const Gallery = () => {
     }, []);
 
     const uniqueTypes = ["All", ...new Set(images.map(img => img.type))];
-    const filteredImages = selectedType === "All" ? images : images.filter(img => img.type === selectedType);
+    let filteredImages = (selectedType === "All" ? images : images.filter(img => img.type === selectedType));
+    filteredImages = sortByDate(filteredImages);
 
     const handleShow = (index) => {
         setCurrentIndex(index);
@@ -235,10 +274,8 @@ const Gallery = () => {
                         <div className="gallery-info">
                             <p className="gallery-description">{img.description}</p>
                             <div className="gallery-bottom">
-                                {img.location && (
-                                    <p className="gallery-location">📍 {img.location}</p>
-                                )}
-                                <p className="gallery-date">{img.uploadDate}</p>
+                                <p className="gallery-location">📍 {img.location || "Unknown Location"}</p>
+                                <p className="gallery-date">{img.uploadDate || "Unknown Date"}</p>
                             </div>
                         </div>
                     </div>
@@ -256,12 +293,11 @@ const Gallery = () => {
                             </div>
 
                             <div className="modal-caption">
-                                <h5>{currentImage.description}</h5>
+                                <h5 className="modal-title">{currentImage.description}</h5>
+
                                 <div className="modal-bottom">
-                                    {currentImage.location && (
-                                        <p className="modal-location">📍 {currentImage.location}</p>
-                                    )}
-                                    <p className="modal-date">{currentImage.uploadDate}</p>
+                                    <p className="modal-location">📍 {currentImage.location || "Unknown Location"}</p>
+                                    <p className="modal-date">{currentImage.uploadDate || "Unknown Date"}</p>
                                 </div>
                             </div>
                         </>
