@@ -6,28 +6,28 @@ const images = [
     {
         src: require('../assets/img/gallery/img-1.jpg'),
         uploadDate: "December 14, 2024",
-        description: "My only opportunity to capture the fall colors in '24",
+        description: "Last Glimpse of Fall '24",
         location: "Farmers Branch, TX",
         type: "Nature"
     },
     {
         src: require('../assets/img/gallery/img-2.jpg'),
         uploadDate: "January 13, 2025",
-        description: "Golden hour in the city",
+        description: "The Hidden Gem",
         location: "Farmers Branch, TX",
         type: "Nature"
     },
     {
         src: require('../assets/img/gallery/img-3.jpg'),
         uploadDate: "January 18, 2025",
-        description: "On a break between a walk",
+        description: "Abscission",
         location: "Irving, TX",
         type: "Nature"
     },
     {
         src: require('../assets/img/gallery/img-4.jpg'),
         uploadDate: "March 6, 2025",
-        description: "Sun escaping the mountains",
+        description: "Delayed by the Mountains",
         location: "Vontimitta, IN",
         type: "Nature"
     },
@@ -124,7 +124,7 @@ const images = [
     {
         src: require('../assets/img/gallery/img-18.jpg'),
         uploadDate: "January 22, 2025",
-        description: "My Living Room",
+        description: "The Living Room",
         location: "Dallas, TX",
         type: "Painting/Sketching"
     },
