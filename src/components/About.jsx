@@ -13,7 +13,7 @@ const About = () => {
                 <Row className="align-items-center" style={{ paddingTop: '2rem' }}>
                     <Col md={5} className="text-center">
                         <Image
-                            src={require('../assets/img/profile-image.JPG')}
+                            src={require('../assets/img/profile-image.jpg')}
                             roundedCircle
                             alt="Profile"
                             className="about-img"
