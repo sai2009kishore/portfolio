@@ -6,30 +6,30 @@ const images = [
     {
         src: require('../assets/img/gallery/img-1.jpg'),
         uploadDate: "December 14, 2024",
-        description: "Last Glimpse of Fall '24",
+        description: "The Last Glimpse",
         location: "Farmers Branch, TX",
-        type: "Nature"
+        type: "Camera Roll"
     },
     {
         src: require('../assets/img/gallery/img-2.jpg'),
         uploadDate: "January 13, 2025",
-        description: "The Hidden Gem",
+        description: "The [not-so] Hidden Gem",
         location: "Farmers Branch, TX",
-        type: "Nature"
+        type: "Camera Roll"
     },
     {
         src: require('../assets/img/gallery/img-3.jpg'),
         uploadDate: "January 18, 2025",
-        description: "Abscission",
+        description: "The Wait",
         location: "Irving, TX",
-        type: "Nature"
+        type: "Camera Roll"
     },
     {
         src: require('../assets/img/gallery/img-4.jpg'),
         uploadDate: "March 6, 2025",
-        description: "Delayed by the Mountains",
+        description: "Escaping the Mountains",
         location: "Vontimitta, IN",
-        type: "Nature"
+        type: "Camera Roll"
     },
     {
         src: require('../assets/img/gallery/img-5.jpg'),
@@ -82,7 +82,7 @@ const images = [
     {
         src: require('../assets/img/gallery/img-12.jpg'),
         uploadDate: "December 15, 2024",
-        description: "Baby Koala w/ Mama",
+        description: "The Furry Duo",
         location: "Dallas, TX",
         type: "Painting/Sketching"
     },
@@ -131,14 +131,14 @@ const images = [
     {
         src: require('../assets/img/gallery/img-19.jpg'),
         uploadDate: "January 26, 2025",
-        description: "A City Street",
+        description: "The Street",
         location: "Dallas, TX",
         type: "Painting/Sketching"
     },
     {
         src: require('../assets/img/gallery/img-20.jpg'),
         uploadDate: "January 30, 2025",
-        description: "A Peaceful Lake",
+        description: "The Lake at Dusk",
         location: "Dallas, TX",
         type: "Painting/Sketching"
     },
@@ -166,16 +166,100 @@ const images = [
     {
         src: require('../assets/img/gallery/img-24.jpg'),
         uploadDate: "March 14, 2025",
-        description: "Cabin in the Woods",
+        description: "A Cabin Hidden in the Woods",
         location: "Hyderabad, IN",
         type: "Painting/Sketching"
     },
     {
         src: require('../assets/img/gallery/img-25.jpg'),
         uploadDate: "April 17, 2025",
-        description: "Sakura",
+        description: "The Bunch",
         location: "Dallas, TX",
         type: "Painting/Sketching"
+    },
+    {
+        src: require('../assets/img/gallery/img-26.jpg'),
+        uploadDate: "November 12, 2021",
+        description: "The Transition",
+        location: "Fairfax, VA",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-27.jpg'),
+        uploadDate: "October 29, 2022",
+        description: "Rust & Flame",
+        location: "Fairfax, VA",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-28.jpg'),
+        uploadDate: "October 29, 2022",
+        description: "The Twins",
+        location: "Fairfax, VA",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-29.jpg'),
+        uploadDate: "March 7, 2020",
+        description: "Sunkissed",
+        location: "Hyderabad, IN",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-30.jpg'),
+        uploadDate: "April 25, 2020",
+        description: "The Dew",
+        location: "Hyderabad, IN",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-31.jpg'),
+        uploadDate: "January 26, 2021",
+        description: "The Inedible",
+        location: "Fairfax, VA",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-32.jpg'),
+        uploadDate: "March 23, 2021",
+        description: "Fresh Bloom",
+        location: "Fairfax, VA",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-33.jpg'),
+        uploadDate: "March 23, 2021",
+        description: "Sakura",
+        location: "Fairfax, VA",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-34.jpg'),
+        uploadDate: "March 19, 2022",
+        description: "Shiroi Sakura",
+        location: "Fairfax, VA",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-35.jpg'),
+        uploadDate: "September 9, 2023",
+        description: "The One",
+        location: "New York City, NY",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-36.jpg'),
+        uploadDate: "September 10, 2023",
+        description: "The World",
+        location: "New York City, NY",
+        type: "Camera Roll"
+    },
+    {
+        src: require('../assets/img/gallery/img-37.jpg'),
+        uploadDate: "May 26, 2024",
+        description: "Serenity",
+        location: "Beavers Bend State Park, OK",
+        type: "Camera Roll"
     },
 ];
 
