@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sai2009kishore.github.io/portfolio/sitemap.xml
