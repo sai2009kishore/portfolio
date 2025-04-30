@@ -287,7 +287,7 @@ const Gallery = () => {
     const [selectedType, setSelectedType] = useState('All');
 
     useEffect(() => {
-        document.body.style.background = "linear-gradient(to right, #e9defa, #fbfcdb)";
+        document.body.style.background = "linear-gradient(to right, #fbc2eb, #a6c1ee)";
     }, []);
 
     const uniqueTypes = ["All", ...new Set(images.map(img => img.type))];
