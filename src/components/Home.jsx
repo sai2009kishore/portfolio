@@ -1,6 +1,5 @@
 import { Fragment, useEffect } from 'react';
 import { Col, Image, Row } from 'react-bootstrap';
-import '../assets/styles/terminal.css';
 import '../assets/styles/home.css';
 
 const PROMPT_NAME = 'coder0112358@portfolio:~$ ';
