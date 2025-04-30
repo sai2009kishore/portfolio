@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bdbed8bd.css",
-    "main.js": "/portfolio/static/js/main.836e0095.js",
-    "static/media/img-3.jpg": "/portfolio/static/media/img-3.b98225dae5a2d015c2df.jpg",
-    "static/media/img-1.jpg": "/portfolio/static/media/img-1.ab94d2811153a58de341.jpg",
-    "static/media/img-24.jpg": "/portfolio/static/media/img-24.94d084cc7c9b2a4132a8.jpg",
+    "main.js": "/portfolio/static/js/main.c34fc00e.js",
+    "static/media/img-3.jpg": "/portfolio/static/media/img-3.9f449de2639ddb16b887.jpg",
     "static/media/img-21.jpg": "/portfolio/static/media/img-21.eb62044eb07c793f1808.jpg",
     "static/media/img-9.jpg": "/portfolio/static/media/img-9.6d7463d9fb457a42a8c0.jpg",
+    "static/media/img-31.jpg": "/portfolio/static/media/img-31.4ca9f70459fffaa79cab.jpg",
     "static/media/img-4.jpg": "/portfolio/static/media/img-4.9352398590bb11225370.jpg",
     "static/media/img-14.jpg": "/portfolio/static/media/img-14.151818a78ae4e89b93d7.jpg",
+    "static/media/img-35.jpg": "/portfolio/static/media/img-35.e576264b14a004703128.jpg",
     "static/media/img-23.jpg": "/portfolio/static/media/img-23.b587ca2b2e640eff0e23.jpg",
     "static/media/profile-image.jpg": "/portfolio/static/media/profile-image.7e14efd0cbcdc61e5f4d.jpg",
     "static/media/img-5.jpg": "/portfolio/static/media/img-5.1c5a02179d22b1e851b8.jpg",
+    "static/media/img-36.jpg": "/portfolio/static/media/img-36.12441ea9a1b943b1bd16.jpg",
     "static/media/img-8.jpg": "/portfolio/static/media/img-8.76b6f290710f10707c0e.jpg",
     "static/media/img-7.jpg": "/portfolio/static/media/img-7.7e1a823e516492601e8d.jpg",
     "static/media/img-20.jpg": "/portfolio/static/media/img-20.83e83e09568e669fa56e.jpg",
@@ -21,21 +22,32 @@
     "static/media/img-2.jpg": "/portfolio/static/media/img-2.f90943cd2ab9df20a79c.jpg",
     "static/media/img-11.jpg": "/portfolio/static/media/img-11.94021d467f8d83c27bd4.jpg",
     "static/media/img-6.jpg": "/portfolio/static/media/img-6.2963a0d4129c4d6f17e9.jpg",
+    "static/media/img-26.jpg": "/portfolio/static/media/img-26.a167bbb9fc6b0b2e2570.jpg",
+    "static/media/img-27.jpg": "/portfolio/static/media/img-27.73019cba0423116a2d0a.jpg",
     "static/media/home-img-1.jpg": "/portfolio/static/media/home-img-1.1bc14dd4be53d97c4016.jpg",
     "static/media/img-15.jpg": "/portfolio/static/media/img-15.c0fe89b012f4243c4866.jpg",
+    "static/media/img-34.jpg": "/portfolio/static/media/img-34.984a879025af47a25705.jpg",
     "static/media/img-16.jpg": "/portfolio/static/media/img-16.3a14b81aee56f011c3d4.jpg",
+    "static/media/img-24.jpg": "/portfolio/static/media/img-24.7578aaee3535cde03f80.jpg",
     "static/media/img-18.jpg": "/portfolio/static/media/img-18.65dafe2de1f553992863.jpg",
+    "static/media/img-29.jpg": "/portfolio/static/media/img-29.a4b77a21e3c2e8cf39a4.jpg",
+    "static/media/img-33.jpg": "/portfolio/static/media/img-33.bd07d52cec0b330bbf68.jpg",
     "static/media/img-13.jpg": "/portfolio/static/media/img-13.0eccc0103efc5ddc6581.jpg",
+    "static/media/img-30.jpg": "/portfolio/static/media/img-30.32f6c19d6576ed38b311.jpg",
+    "static/media/img-28.jpg": "/portfolio/static/media/img-28.8ab82a3c2a0dbf560cfa.jpg",
     "static/media/img-19.jpg": "/portfolio/static/media/img-19.d462d9e369ad66ebb4dd.jpg",
     "static/media/img-12.jpg": "/portfolio/static/media/img-12.54ea2da7e9a3390a0148.jpg",
+    "static/media/img-1.jpg": "/portfolio/static/media/img-1.cfdbbfafc77d4f113220.jpg",
     "static/media/img-22.jpg": "/portfolio/static/media/img-22.81d0ca55044f9fd3af2e.jpg",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.16239b55ead10d45f9d1.pdf",
+    "static/media/img-37.jpg": "/portfolio/static/media/img-37.6b04e61f3bd81aa9f976.jpg",
+    "static/media/img-32.jpg": "/portfolio/static/media/img-32.1a86b6d249b7e477fbe4.jpg",
     "index.html": "/portfolio/index.html",
     "main.bdbed8bd.css.map": "/portfolio/static/css/main.bdbed8bd.css.map",
-    "main.836e0095.js.map": "/portfolio/static/js/main.836e0095.js.map"
+    "main.c34fc00e.js.map": "/portfolio/static/js/main.c34fc00e.js.map"
   },
   "entrypoints": [
     "static/css/main.bdbed8bd.css",
-    "static/js/main.836e0095.js"
+    "static/js/main.c34fc00e.js"
   ]
 }
