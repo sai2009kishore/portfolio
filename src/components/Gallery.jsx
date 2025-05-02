@@ -1,6 +1,7 @@
 import { useEffect, useState, useCallback } from 'react';
 import { Modal } from 'react-bootstrap';
 import '../assets/styles/gallery.css';
+import { Helmet } from 'react-helmet';
 
 const images = [
     {
@@ -333,6 +334,10 @@ const Gallery = () => {
 
     return (
         <div className="gallery-page main-content">
+            <Helmet>
+                <title>Gallery | Sai Kishore</title>
+                <meta name="description" content="A curated gallery of moments — including photography, sketches, travels, and creative work captured through my lens." />
+            </Helmet>
             <div className="filter-bar">
                 {uniqueTypes.map((type, idx) => (
                     <button

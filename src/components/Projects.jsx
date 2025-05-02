@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import '../assets/styles/projects.css';
+import { Helmet } from 'react-helmet';
 
 
 const Projects = () => {
@@ -8,7 +9,12 @@ const Projects = () => {
     }, []);
 
     return (
-        <></>
+        <>
+            <Helmet>
+                <title>Projects | Sai Kishore</title>
+                <meta name="description" content="Explore my software and machine learning projects." />
+            </Helmet>
+        </>
     );
 };
 

@@ -1,6 +1,7 @@
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import { useEffect } from 'react';
 import '../assets/styles/about.css';
+import { Helmet } from 'react-helmet';
 
 const About = () => {
     useEffect(() => {
@@ -9,6 +10,10 @@ const About = () => {
 
     return (
         <div className="about main-content" style={{ marginLeft: '1rem', marginRight: '1rem' }}>
+            <Helmet>
+                <title>About | Sai Kishore</title>
+                <meta name="description" content="Learn more about my background, interests, and experience." />
+            </Helmet>
             <Container className="about-container">
                 <Row className="align-items-center" style={{ paddingTop: '2rem' }}>
                     <Col md={5} className="text-center">

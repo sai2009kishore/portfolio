@@ -1,6 +1,7 @@
 import { Fragment, useEffect } from 'react';
 import { Col, Image, Row } from 'react-bootstrap';
 import '../assets/styles/home.css';
+import { Helmet } from 'react-helmet';
 
 const PROMPT_NAME = 'coder0112358@portfolio:~$ ';
 
@@ -22,6 +23,10 @@ const Home = () => {
 
     return (
         <div className='home main-content'>
+            <Helmet>
+                <title>Sai Kishore Salaka | Fullstack Developer | Cloud & ML Enthusiast</title>
+                <meta name="description" content="Welcome to my personal portfolio. I’m Sai — a software engineer with experience in fullstack development, cloud infrastructure, and machine learning." />
+            </Helmet>
             <Row style={{ padding: 0, margin: 0 }}>
                 <Col sm={5} className='text-center'>
                     <Image id="home-img" src={require("../assets/img/home-img-1.jpg")} alt="Home Logo" fluid />

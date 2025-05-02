@@ -17,7 +17,7 @@ const NavbarComponent = () => {
       <div className="container-fluid">
         <LinkContainer to='/home' onClick={handleNavLinkClick}>
           <Navbar.Brand className="custom-brand">
-            <EncryptEffect text="Sai Kishore Salaka" speed={35} />
+            <EncryptEffect text="SAI KISHORE SALAKA" speed={35} />
           </Navbar.Brand>
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

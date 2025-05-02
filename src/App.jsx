@@ -15,6 +15,7 @@ function App() {
   return (
     <div id="app" className="app-container">
       <ScrollToTop />
+
       <NavbarComponent />
 
       <div className="content-wrap">

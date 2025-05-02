@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import '../assets/styles/resume.css'
+import { Helmet } from "react-helmet";
 
 const Resume = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -21,6 +22,10 @@ const Resume = () => {
 
     return (
         <div className="resume main-content" style={{ padding: '2rem', textAlign: 'center' }}>
+            <Helmet>
+                <title>Resume | Sai Kishore</title>
+                <meta name="description" content="Download or view my resume, highlighting experience and skils." />
+            </Helmet>
             <div className="terminal-frame">
                 {isMobile ? (
                     <div style={{ padding: '2rem' }}>

@@ -23,7 +23,7 @@ const EncryptEffect = ({ text, speed = 5, iterations = 3 }) => {
         return () => timeouts.forEach(timeout => clearTimeout(timeout));
     }, [text, speed, iterations, characters.length]);
 
-    return <div>{displayedText}</div>;
+    return <code style={{ fontSize: 24 }}>{displayedText}</code>;
 };
 
 export default EncryptEffect;
