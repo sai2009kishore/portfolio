@@ -197,7 +197,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.5);
   color: #333;
   border: none;
   width: 44px;
@@ -223,4 +223,34 @@
 
 .fixed-right {
   right: 20px;
+}
+
+.modal-close-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .modal-close-button {
+    display: flex;
+    position: absolute;
+    width: 44px;
+    right: 0.5rem;
+    background: rgba(255, 255, 255, 0.5);
+    color: #333;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+  }
+
+  .modal-close-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
 }

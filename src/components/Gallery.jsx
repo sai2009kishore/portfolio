@@ -368,24 +368,26 @@ const Gallery = () => {
 
             <Modal show={show} onHide={handleClose} centered size="lg" dialogClassName="custom-modal">
                 <Modal.Body className="modal-body-custom">
-                    {currentImage && (
-                        <>
-                            <div className="modal-image-container">
-                                <button className="nav-button fixed-left" onClick={handlePrev}>❮</button>
-                                <img src={currentImage.src} alt="Enlarged" className="modal-img" />
-                                <button className="nav-button fixed-right" onClick={handleNext}>❯</button>
-                            </div>
-
-                            <div className="modal-caption">
-                                <h5 className="modal-title">{currentImage.description}</h5>
-
-                                <div className="modal-bottom">
-                                    <p className="modal-location">📍 {currentImage.location || "Unknown Location"}</p>
-                                    <p className="modal-date">{currentImage.uploadDate || "Unknown Date"}</p>
+                    <div className="modal-content-wrapper">
+                        <button className="modal-close-button" onClick={handleClose}>✕</button>
+                        {currentImage && (
+                            <>
+                                <div className="modal-image-container">
+                                    <button className="nav-button fixed-left" onClick={handlePrev}>❮</button>
+                                    <img src={currentImage.src} alt="Enlarged" className="modal-img" />
+                                    <button className="nav-button fixed-right" onClick={handleNext}>❯</button>
                                 </div>
-                            </div>
-                        </>
-                    )}
+
+                                <div className="modal-caption">
+                                    <h5 className="modal-title">{currentImage.description}</h5>
+                                    <div className="modal-bottom">
+                                        <p className="modal-location">📍 {currentImage.location || "Unknown Location"}</p>
+                                        <p className="modal-date">{currentImage.uploadDate || "Unknown Date"}</p>
+                                    </div>
+                                </div>
+                            </>
+                        )}
+                    </div>
                 </Modal.Body>
             </Modal>
         </div>
