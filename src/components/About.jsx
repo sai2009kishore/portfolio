@@ -10,7 +10,7 @@ const About = () => {
     }, []);
 
     return (
-        <div className="about main-content" style={{ marginLeft: '1rem', marginRight: '1rem' }}>
+        <div className="about main-content" style={{ margin: '1rem' }}>
             <Helmet>
                 <title>About | Sai Kishore</title>
                 <meta name="description" content="Learn more about my background, interests, and experience." />
