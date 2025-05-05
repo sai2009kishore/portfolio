@@ -1,7 +1,8 @@
 import { Fragment, useEffect } from 'react';
 import { Col, Image, Row } from 'react-bootstrap';
-import '../assets/styles/home.css';
 import { Helmet } from 'react-helmet';
+import '../assets/styles/home.css';
+import '../assets/styles/window.css';
 
 const PROMPT_NAME = 'coder0112358@portfolio:~$ ';
 
@@ -13,10 +14,10 @@ const Home = () => {
 
     const generatePrompt = (prompt, response) => {
         return <Fragment>
-            <p><span className="terminal-prompt">{PROMPT_NAME}</span>{prompt}</p>
+            <p><span className="window-prompt">{PROMPT_NAME}</span>{prompt}</p>
             {
                 response &&
-                <p><span className="terminal-response">{response}</span></p>
+                <p><span className="window-response">{response}</span></p>
             }
         </Fragment>
     }
@@ -32,17 +33,17 @@ const Home = () => {
                     <Image id="home-img" src={require("../assets/img/home-img-1.jpg")} alt="Home Logo" fluid />
                 </Col>
                 <Col sm={7}>
-                    <div className="terminal-window">
-                        <div className="terminal-header">
-                            <div className="terminal-buttons">
-                                <div className="terminal-button close-button"></div>
-                                <div className="terminal-button minimize-button"></div>
-                                <div className="terminal-button maximize-button"></div>
+                    <div className="window">
+                        <div className="window-header">
+                            <div className="window-buttons">
+                                <div className="window-button close-button"></div>
+                                <div className="window-button minimize-button"></div>
+                                <div className="window-button maximize-button"></div>
                             </div>
-                            <span className="terminal-title">About Me</span>
-                            <div className="terminal-buttons-right"></div>
+                            <span className="window-title">About Me</span>
+                            <div className="window-buttons-right"></div>
                         </div>
-                        <div className="terminal-body">
+                        <div className="window-body terminal">
                             <p>Welcome to my portfolio!</p>
                             {generatePrompt('sai.currentLocation', '"Dallas, Texas, USA"')}
                             {generatePrompt('sai.education', '["Master\'s in Computer Science - George Mason University", "Bachelor\'s in Computer Science - GRIET"]')}
@@ -51,7 +52,7 @@ const Home = () => {
                             {generatePrompt('sai.dataSkills', '["MySQL", "PostgreSQL", "Neo4j", "Oracle"]')}
                             {generatePrompt('sai.devopsSkills', '["Azure", "AWS", "Kubernetes", "Helm", "CI/CD", "Docker]')}
                             {generatePrompt('sai.machineLearningSkills', '["Python", "PySpark", "CLISP", "TensorFlow", "PyTorch"]')}
-                            {generatePrompt(<span className="terminal-cursor"> </span>)}
+                            {generatePrompt(<span className="window-cursor"> </span>)}
                         </div>
                     </div>
                 </Col>

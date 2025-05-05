@@ -9,7 +9,6 @@ import './assets/styles/app.css';
 import './assets/styles/scrollbar.css';
 import ScrollToTop from './components/ScrollToTop';
 import Gallery from './components/Gallery';
-import Projects from './components/Projects';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
       <div className="content-wrap">
         <Routes>
           <Route path='/home' element={<Home />} />
-          <Route path='/projects' element={<Projects />} />
           <Route path='/resume' element={<Resume />} />
           <Route path='/gallery' element={<Gallery />} />
           <Route path='/about' element={<About />} />

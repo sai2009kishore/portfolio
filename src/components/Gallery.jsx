@@ -288,7 +288,7 @@ const Gallery = () => {
     const [selectedType, setSelectedType] = useState('All');
 
     useEffect(() => {
-        document.body.style.background = "linear-gradient(to right, #fbc2eb, #a6c1ee)";
+        document.body.style.background = "linear-gradient(to right, #cfd9df, #e2ebf0)";
     }, []);
 
     const uniqueTypes = ["All", ...new Set(images.map(img => img.type))];
@@ -349,7 +349,6 @@ const Gallery = () => {
                     </button>
                 ))}
             </div>
-
             <div className="gallery-grid">
                 {filteredImages.map((img, index) => (
                     <div key={index} className="gallery-card" onClick={() => handleShow(index)}>

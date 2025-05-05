@@ -26,9 +26,6 @@ const NavbarComponent = () => {
             <LinkContainer to='/home' onClick={handleNavLinkClick}>
               <Nav.Link>Home</Nav.Link>
             </LinkContainer>
-            <LinkContainer to='/projects' onClick={handleNavLinkClick}>
-              <Nav.Link>Projects</Nav.Link>
-            </LinkContainer>
             <LinkContainer to='/resume' onClick={handleNavLinkClick}>
               <Nav.Link>Resume</Nav.Link>
             </LinkContainer>

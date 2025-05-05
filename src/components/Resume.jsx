@@ -26,26 +26,37 @@ const Resume = () => {
                 <title>Resume | Sai Kishore</title>
                 <meta name="description" content="Download or view my resume, highlighting experience and skils." />
             </Helmet>
-            <div className="terminal-frame">
-                {isMobile ? (
-                    <div style={{ padding: '2rem' }}>
-                        <a
-                            href={require("../assets/pdf/Resume.pdf")}
-                            download="Sai_Kishore_Salaka_Resume.pdf"
-                            className="btn btn-primary"
-                        >
-                            Download Resume
-                        </a>
+            <div className="window" style={{ width: '80%', alignContent: 'center', margin: 'auto' }}>
+                <div className="window-header">
+                    <div className="window-buttons">
+                        <div className="window-button close-button"></div>
+                        <div className="window-button minimize-button"></div>
+                        <div className="window-button maximize-button"></div>
                     </div>
-                ) : (
-                    <iframe
-                        src={require("../assets/pdf/Resume.pdf")}
-                        title="Resume"
-                        width="100%"
-                        height="600px"
-                        style={{ border: "none", borderRadius: "10px" }}
-                    ></iframe>
-                )}
+                    <span className="window-title">Resume</span>
+                    <div className="window-buttons-right"></div>
+                </div>
+                <div className="window-body">
+                    {isMobile ? (
+                        <div style={{ padding: '2rem' }}>
+                            <a
+                                href={require("../assets/pdf/Resume.pdf")}
+                                download="Sai_Kishore_Salaka_Resume.pdf"
+                                className="btn btn-primary"
+                            >
+                                Download Resume
+                            </a>
+                        </div>
+                    ) : (
+                        <iframe
+                            src={require("../assets/pdf/Resume.pdf")}
+                            title="Resume"
+                            width="100%"
+                            height="600px"
+                            style={{ border: "none", borderRadius: "10px" }}
+                        ></iframe>
+                    )}
+                </div>
             </div>
         </div>
     );

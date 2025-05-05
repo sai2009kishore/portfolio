@@ -6,45 +6,43 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 2rem;
-  gap: 10px;
+  gap: 14px;
+  margin-bottom: 2.5rem;
+  padding: 10px 0;
 }
 
 .filter-button {
-  background: none;
+  padding: 0.6rem 1.5rem;
   border: none;
-  padding: 8px 16px;
+  border-radius: 999px;
+  background: linear-gradient(to right, #f0f0f0, #eaeaea);
+  color: #444;
   font-size: 1rem;
+  font-weight: 500;
   cursor: pointer;
-  position: relative;
-  color: #555;
-  transition: color 0.3s ease;
-}
-
-.filter-button::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -4px;
-  width: 100%;
-  height: 2px;
-  background: #91a3b0;
-  transform: scaleX(0);
-  transform-origin: center;
-  transition: transform 0.3s ease;
+  transition: all 0.25s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4px);
 }
 
 .filter-button:hover {
-  color: #333;
+  transform: translateY(-1px);
+  background: linear-gradient(to right, #e0e0e0, #d8d8d8);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.filter-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(100, 150, 255, 0.4);
 }
 
 .filter-button.active {
-  color: #000;
+  background: linear-gradient(to right, #a1c4fd);
+  color: #444;
+  font-weight: 600;
+  box-shadow: 0 0 0 3px #c2e9fb;
 }
 
-.filter-button.active::after {
-  transform: scaleX(1);
-}
 
 .gallery-grid {
   display: grid;
